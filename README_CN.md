@@ -124,7 +124,7 @@ YOLOV8 视觉识别功能包基于RM产品开发，利用YOLOV8和D435相机视�
 
 ### 3.1.ROS noetic 环境
 
-ROS环境安装可以参考：[ROS的最简单安装——鱼香一键安装_鱼香ros一键安装-CSDN博客](https://blog.csdn.net/m0_73745340/article/details/135281023)
+ROS环境安装可以参考
 
 ```
 wget http://fishros.com/install -O fishros && . fishros
@@ -132,9 +132,9 @@ wget http://fishros.com/install -O fishros && . fishros
 
 ### 3.2.Ubuntu20.04系统
 
-本功能包示例使用安装好jatpack的jetson xariver NX，cuda
+本功能包示例使用安装好jatpack的jetson xariver NX，cuda环境
 
-Jetson NX刷机安装cuda等深度学习环境可以参考[英伟达官方源Jetson Xavier NX安装Ubuntu20.04，配置CUDA，cuDNN，Pytorch等环境教程](https://blog.csdn.net/m0_53717069/article/details/128536837)
+Jetson NX刷机安装cuda等深度学习环境可以参考jetson官网
 
 ### 3.3.YOLOV8 依赖需求
 

@@ -124,7 +124,7 @@ The robotic arm is connected to the main control through a network cable, the ca
 
 ### 3.1.ROS noetic environment
 
-For ROS environment installation, please refer to: [ROS的最简单安装——鱼香一键安装_鱼香ros一键安装-CSDN博客](https://blog.csdn.net/m0_73745340/article/details/135281023)
+For ROS environment installation:
 
 ```
 wget http://fishros.com/install -O fishros && . fishros
@@ -134,7 +134,7 @@ wget http://fishros.com/install -O fishros && . fishros
 
 This function package example uses jetson xariver NX and cuda with jatpack installed.
 
-To flash Jetson NX and install cuda and other deep learning environments, please refer to [英伟达官方源Jetson Xavier NX安装Ubuntu20.04，配置CUDA，cuDNN，Pytorch等环境教程](https://blog.csdn.net/m0_53717069/article/details/128536837)
+To flash Jetson NX and install cuda and other deep learning environments.
 
 ### 3.3.YOLOV8 dependency requirements
 
