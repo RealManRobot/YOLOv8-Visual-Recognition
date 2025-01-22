@@ -40,9 +40,10 @@
 
 ### 1.6更新日志
 
-|  更新日期  |         更新内容         | 版本号 |
-| :--------: | :----------------------: | :----: |
-| 2024/12/27 | YOLOV8视觉识别功能包发布 | v1.0.0 |
+|  更新日期  |                 更新内容                 | 版本号 |
+| :--------: | :--------------------------------------: | :----: |
+| 2024/12/27 |         YOLOV8视觉识别功能包发布         | v1.0.0 |
+| 2025/01/22 | 增加中英文readme，更新readme中的资料链接 | v1.0.1 |
 
 ## 2.软硬件概述
 
@@ -212,7 +213,7 @@ pip install pyrealsense2 -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 ## 4.测试步骤
 
-1.首先确认机械臂ROS功能包是否可以正常使用，因为ROS功能包与机械臂的版本存在对应关系，可以进入[realman资料官网](https://develop.realman-robotics.com/robot/summarize/)查看具体版本对应信息。若ROS包存在问题，请下载官网最新的ROS包替换src目录下的rm_robot。
+1.首先确认机械臂ROS功能包是否可以正常使用，因为ROS功能包与机械臂的版本存在对应关系，可以进入[realman资料官网](https://develop.realman-robotics.com/zh/robot/summarize/)查看具体版本对应信息。若ROS包存在问题，请下载官网最新的ROS包替换src目录下的rm_robot。
 
 ```
 sudo apt-get update    # 更新在线包列表
