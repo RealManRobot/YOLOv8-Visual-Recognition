@@ -213,7 +213,7 @@ pip install pyrealsense2 -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 ## 4.Test steps
 
-1. First confirm whether the ROS function package of the robotic arm can be used normally, because there is a corresponding relationship between the ROS function package and the version of the robotic arm. You can enter [realman资料官网](https://develop.realman-robotics.com/zh/robot/summarize/) to view the specific version corresponding information. If there is a problem with the ROS package, please download the latest ROS package from the official website and replace rm_robot in the src directory.
+1. First confirm whether the ROS function package of the robotic arm can be used normally, because there is a corresponding relationship between the ROS function package and the version of the robotic arm. You can enter [realman doc](https://develop.realman-robotics.com/en/robot/summarize/) to view the specific version corresponding information. If there is a problem with the ROS package, please download the latest ROS package from the official website and replace rm_robot in the src directory.
 
 ```
 sudo apt-get update    # 更新在线包列表
