@@ -123,7 +123,7 @@ YOLOV8 视觉识别功能包基于RM产品开发，利用YOLOV8和D435相机视�
 
 ### 3.1.ROS noetic 环境
 
-ROS环境安装可以参考：[ROS的最简单安装——鱼香一键安装_鱼香ros一键安装-CSDN博客](https://blog.csdn.net/m0_73745340/article/details/135281023)
+执行以下命令完成ROS环境安装：
 
 ```
 wget http://fishros.com/install -O fishros && . fishros
@@ -131,9 +131,7 @@ wget http://fishros.com/install -O fishros && . fishros
 
 ### 3.2.Ubuntu20.04系统
 
-本功能包示例使用安装好jatpack的jetson xariver NX，cuda
-
-Jetson NX刷机安装cuda等深度学习环境可以参考[英伟达官方源Jetson Xavier NX安装Ubuntu20.04，配置CUDA，cuDNN，Pytorch等环境教程](https://blog.csdn.net/m0_53717069/article/details/128536837)
+本功能包示例使用安装好Jatpack的Jetson Xariver NX，Cuda。
 
 ### 3.3.YOLOV8 依赖需求
 
@@ -212,7 +210,7 @@ pip install pyrealsense2 -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 ## 4.测试步骤
 
-1.首先确认机械臂ROS功能包是否可以正常使用，因为ROS功能包与机械臂的版本存在对应关系，可以进入[realman资料官网](https://develop.realman-robotics.com/robot/summarize/)查看具体版本对应信息。若ROS包存在问题，请下载官网最新的ROS包替换src目录下的rm_robot。
+1.首先确认机械臂ROS功能包是否可以正常使用，因为ROS功能包与机械臂的版本存在对应关系，可以进入[realman资料官网](https://develop.realman-robotics.com/zh/robot/summarize/)查看具体版本对应信息。若ROS包存在问题，请下载官网最新的ROS包替换src目录下的rm_robot。
 
 ```
 sudo apt-get update    # 更新在线包列表

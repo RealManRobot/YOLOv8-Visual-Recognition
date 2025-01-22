@@ -123,7 +123,7 @@ The robotic arm is connected to the main control through a network cable, the ca
 
 ### 3.1.ROS noetic environment
 
-For ROS environment installation, please refer to: [ROS的最简单安装——鱼香一键安装_鱼香ros一键安装-CSDN博客](https://blog.csdn.net/m0_73745340/article/details/135281023)
+Execute the following commands to complete the installation of the ROS environment.
 
 ```
 wget http://fishros.com/install -O fishros && . fishros
@@ -132,8 +132,6 @@ wget http://fishros.com/install -O fishros && . fishros
 ### 3.2.Ubuntu20.04 system
 
 This function package example uses jetson xariver NX and cuda with jatpack installed.
-
-To flash Jetson NX and install cuda and other deep learning environments, please refer to [英伟达官方源Jetson Xavier NX安装Ubuntu20.04，配置CUDA，cuDNN，Pytorch等环境教程](https://blog.csdn.net/m0_53717069/article/details/128536837)
 
 ### 3.3.YOLOV8 dependency requirements
 
@@ -212,7 +210,7 @@ pip install pyrealsense2 -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 ## 4.Test steps
 
-1. First confirm whether the ROS function package of the robotic arm can be used normally, because there is a corresponding relationship between the ROS function package and the version of the robotic arm. You can enter [realman资料官网](https://develop.realman-robotics.com/robot/summarize/) to view the specific version corresponding information. If there is a problem with the ROS package, please download the latest ROS package from the official website and replace rm_robot in the src directory.
+1. First confirm whether the ROS function package of the robotic arm can be used normally, because there is a corresponding relationship between the ROS function package and the version of the robotic arm. You can enter [realman Official Documentation Website](https://develop.realman-robotics.com/en/robot/summarize/) to view the specific version corresponding information. If there is a problem with the ROS package, please download the latest ROS package from the official website and replace rm_robot in the src directory.
 
 ```
 sudo apt-get update    # 更新在线包列表
